@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TEST STYLING */
+body {
+  background-color: lightgray; /* Should turn the entire page gray */
+}
+

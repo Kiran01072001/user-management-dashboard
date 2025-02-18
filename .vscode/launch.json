@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Spring Boot",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "com.example.backend.BackendApplication",  // Pointing to the main class inside backend
+      "projectName": "backend",
+      "args": "",
+      "env": {
+        "SPRING_PROFILES_ACTIVE": "dev"
+      },
+      "cwd": "${workspaceFolder}/backend",  // Make sure to set the cwd to the 'backend' folder
+      "stopOnEntry": false
+    }
+  ]
+}
