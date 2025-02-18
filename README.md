@@ -17,15 +17,15 @@ The application is designed to work with a Spring Boot backend for data persiste
 
 # Install dependencies:
 
-npm install
-mvn install
+1 npm install
+2 mvn install
 
 # Start the development server:
 
-npm start
-npm run dev
-mvn spring-boot:run
-Ensure your Spring Boot backend is running on http://localhost:8080.
+1 npm start
+2 npm run dev
+3 mvn spring-boot:run
+4 Ensure your Spring Boot backend is running on http://localhost:8080.
 
 # Usage
 
